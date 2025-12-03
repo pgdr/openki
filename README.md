@@ -1,9 +1,9 @@
 ---
 author: Pål Grønås Drange
 title: Open KI
-institute: Department of Informatics, University of Bergen
+institute: Institutt for Informatikk, Universitetet i Bergen
 theme: metropolis
-date: December 4, 2025
+date: Deslember 4, 2025
 aspectratio: 169
 header-includes:
   - \usetheme{metropolis}
@@ -19,17 +19,13 @@ header-includes:
 
 # Klassisk programvare vs ML-systemer
 
-- Klassisk programvare:
-  - Program tar input
-  - Program kjører (logikk)
-  - Program produserer output
-- Koden er logikken
+![](logikk.png)
+
 
 # ML-systemer
 
 
 ![](trening.png)
-
 
 * Treningsdata blir brukt til å lage en statistisk modell
 
@@ -47,18 +43,62 @@ header-includes:
 # Hva er en modell?
 
 
+
+::: columns
+:::: {.column width="75%"}
+
 ![](linear.png)
+
+::::
+:::: {.column width="25%"}
+
+```
+4, -6
+```
+
+::::
+:::
 
 
 # Hva er en modell?
 
+
+::: columns
+:::: {.column width="75%"}
 
 ![](cubic.png)
 
+::::
+:::: {.column width="25%"}
+
+```
+1, -9, 4, 6
+```
+
+::::
+:::
+
+
 # Hva er en modell?
 
+::: columns
+:::: {.column width="60%"}
 
 ![](decision.png)
+
+::::
+:::: {.column width="40%"}
+
+```lisp
+(>= legs 3
+  (>= eyes 3
+    spider
+    dog)
+  penguin)
+```
+
+::::
+:::
 
 # Hva er en modell?
 
@@ -77,9 +117,9 @@ header-includes:
 
 
 
-# Treningdata: den problematiske delen
+# Treningsdata: den problematiske delen
 
-- Treningdata:
+- Treningsdata:
   - Store nettbaserte innhentinger, bøker, kode, proprietære kilder
 
 - Selv om datasett er _tilgjengelige_:
