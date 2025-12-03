@@ -3,7 +3,7 @@ author: Pål Grønås Drange
 title: Open KI
 institute: Institutt for Informatikk, Universitetet i Bergen
 theme: metropolis
-date: Deslember 4, 2025
+date: Desember 4, 2025
 aspectratio: 169
 header-includes:
   - \usetheme{metropolis}
