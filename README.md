@@ -27,21 +27,17 @@ header-includes:
 
 # ML-systemer
 
-\centering
 
 ![](trening.png)
 
-\bigskip
 
 * Treningsdata blir brukt til å lage en statistisk modell
 
 # ML-systemer
 
-\centering
 
 ![](bruk.png)
 
-\bigskip
 
 * Bruker gir input til systemet som videresender(\*) til modell
 * Systemet får output fra modell og gir(\*) til bruker
@@ -50,23 +46,23 @@ header-includes:
 
 # Hva er en modell?
 
-\centering
+
 ![](linear.png)
 
 
 # Hva er en modell?
 
-\centering
+
 ![](cubic.png)
 
 # Hva er en modell?
 
-\centering
+
 ![](decision.png)
 
 # Hva er en modell?
 
-\centering
+
 ![](neural.png)
 
 
