@@ -5,14 +5,13 @@ institute: Institutt for Informatikk, Universitetet i Bergen
 theme: metropolis
 date: Desember 4, 2025
 aspectratio: 169
+fontsize: 13pt
 header-includes:
   - \usetheme{metropolis}
   - \definecolor{beaublue}{rgb}{0.74, 0.83, 0.9}
   - \setbeamertemplate{frame footer}{\tiny{\textcolor{beaublue}{Open KI 2025 (\insertframenumber/\inserttotalframenumber)}}}
   - \usepackage{tikzsymbols}
-  - \usefonttheme{professionalfonts}
-  - \usepackage{arev}
-  - \usepackage{wasysym}
+  - \usepackage{ebgaramond}
 ---
 
 
