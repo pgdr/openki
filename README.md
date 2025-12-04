@@ -77,6 +77,25 @@ header-includes:
 ::::
 :::
 
+# Hva er en modell?
+
+
+::: columns
+:::: {.column width="75%"}
+
+![](septic.png)
+
+::::
+:::: {.column width="25%"}
+
+```
+.01, .09. -.5. -.2,
+.01, -.9,  .4,   6
+```
+
+::::
+:::
+
 
 # Hva er en modell?
 
